@@ -1,20 +1,19 @@
-# FabricNetwork-2.x
+# Hyperledger fabric
 
 Steps:
 
-1) Clone the repo
-2) Run Certificates Authority Services for all Orgs
-3) Create Cryptomaterials for all organizations
-4) Create Channel Artifacts using Org MSP
-5) Create Channel and join peers
-6) Deploy Chaincode
-   1) Install All dependency
-   2) Package Chaincode
-   3) Install Chaincode on all Endorsing Peer
-   4) Approve Chaincode as per Lifecycle Endorsment Policy
-   5) Commit Chaincode Defination
-7) Create Connection Profiles
-8) Start API Server
-9) Register User using API
-10) Invoke Chaincode Transaction
-11) Query Chaincode Transaction
+clone the repository
+Run the Certificates Authority Services for each Organization
+For all organisations, create cryptomaterials
+Using Org MSP, create Channel Artifacts.
+Make a channel and join peers
+Install Chaincode and all dependencies
+Package Chaincode
+All endorsing should install Chaincode. Peer
+as per the Lifecycle Endorsement Policy, approve Chaincode
+Define Commit Chaincode
+Establish Connection Profiles
+Open API Server and Register Users
+Make use of Chaincode Transaction Query Blockchain Transaction
+Invoke Chaincode Transaction
+Query Chaincode Transaction
